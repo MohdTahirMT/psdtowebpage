@@ -213,4 +213,128 @@ a{
 
 /* End Section 3 */
 
+/* Section 4 */
+
+.div2x{
+    margin: 3% 12%;
+    width: auto;
+    height: 1016px;
+}
+
+.div33{
+    width: 31%;
+    display: inline-flexbox;
+    overflow: auto;
+    float: left;
+    background-color: rgb(226, 223, 223);
+}
+
+.div33 img{
+    width:100%;
+    height: 25vh;
+}
+
+.div33 h2, p, ul{
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.div1, .div2{
+    margin-right: 40px;
+}
+
+.div1 h2{
+    color: green;
+}
+
+.div2 h2{
+    color: blue;
+}
+
+.div3 h2{
+    color: red;
+}
+
+.div33 ul{
+    text-align: center;
+}
+
+.div1 ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: red;
+    padding: 10px 15px;
+}
+
+.div2 ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: blue;
+    padding: 10px 15px;
+}
+
+.div3 ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: green;
+    padding: 10px;
+}
+
+.div50{
+    margin-top: 4%;
+}
+
+.diva1{
+    margin-right: 10%;
+}
+
+.div50{
+    width: 45%;
+    display: inline-flexbox;
+    overflow: auto;
+    float: left;
+    background-color: rgb(226, 223, 223);
+}
+
+.div50 img{
+    width:100%;
+    height:35vh;
+}
+
+.div50 h2, p, ul{
+    padding: 5px;
+    margin-left: 3px;
+    margin-bottom: 20px;
+}
+
+.div50 ul{
+    text-align: center;
+}
+
+.diva1 ul li a{
+    color: grey;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 15px;
+}
+
+.diva2 ul li a{
+    color: grey;
+    text-decoration: none;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 15px;
+}
+
+/* End Section 4 */
+
 
