@@ -371,9 +371,41 @@ a{
 
 /* Section 5 */
 
+/* Mobile Menu */
+@media only screen and (max-width:400px) {
+
+    #navbar{
+        background-color: crimson;
+        position: absolute;
+        top: 0px;
+        height: 100vh;
+        width: 280px;
+        padding: 0px;
+    }
+
+    #navbar ul li{
+        display: block;
+        padding: 18px 0px;
+        padding-right: 35px;
+        padding-left: 20px;
+        text-align: left;
+    }
+
+    #navbar ul li .mobile-cross{
+        text-align: center;
+    }
+    .fa-times-circle{
+        font-size: 25px;
+    }
+}
+
 /* Responsive for Mobile */
 
 @media only screen and (max-width:400px) {
+
+    body, div {
+        overflow: auto;
+    }
 
     .sec1{
         margin-top: -7%;
