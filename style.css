@@ -50,6 +50,7 @@ a{
     color: white;
     flex-direction: column;
     box-sizing: border-box;
+    margin-top: -1.3%;
 }
 
 .sec1 h1{
@@ -114,7 +115,7 @@ a{
     text-decoration: none;
     font-size: 15px;
     border-radius: 5px;
-    background-color: red;
+    background-color: green;
     padding: 10px 15px;
 }
 
@@ -132,7 +133,7 @@ a{
     text-decoration: none;
     font-size: 15px;
     border-radius: 5px;
-    background-color: green;
+    background-color: red;
     padding: 10px;
 }
 
@@ -202,11 +203,11 @@ a{
     box-sizing: border-box;
 }
 
-.sec1 h1{
-    font-size: 50px;
+.sec3 h1{
+    font-size: 40px;
 }
 
-.sec1 pre{
+.sec3 pre{
     font-size: 18px;
     text-align: center;
 }
@@ -215,109 +216,77 @@ a{
 
 /* Section 4 */
 
-.div2x{
+.div4x{
     margin: 3% 12%;
     width: auto;
-    height: 1016px;
+    height: 1170px;
 }
 
-.div33{
-    width: 31%;
+.div25{
+    width: 22%;
     display: inline-flexbox;
     overflow: auto;
     float: left;
-    background-color: rgb(226, 223, 223);
+    background-color: rgb(243, 240, 240);
+    color: rgb(90, 89, 89);
 }
 
-.div33 img{
+.div25 img{
     width:100%;
     height: 25vh;
 }
 
-.div33 h2, p, ul{
+.div25 h2, p, ul{
     padding: 5px;
     margin-bottom: 20px;
 }
 
-.div1, .div2{
-    margin-right: 40px;
+.div4-1 , .div4-2 , .div4-3{
+    margin-right: 4%;
 }
 
-.div1 h2{
-    color: green;
-}
-
-.div2 h2{
-    color: blue;
-}
-
-.div3 h2{
-    color: red;
-}
-
-.div33 ul{
+.div25 ul{
     text-align: center;
 }
 
-.div1 ul li a{
-    color: white;
+.div25 ul li a{
+    color: grey;
     text-decoration: none;
     font-size: 15px;
     border-radius: 5px;
-    background-color: red;
+    background-color: white;
     padding: 10px 15px;
 }
 
-.div2 ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-    border-radius: 5px;
-    background-color: blue;
-    padding: 10px 15px;
-}
-
-.div3 ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-    border-radius: 5px;
-    background-color: green;
-    padding: 10px;
-}
-
-.div50{
+.div100{
     margin-top: 4%;
 }
 
-.diva1{
-    margin-right: 10%;
-}
-
-.div50{
-    width: 45%;
+.div100{
+    width: 100%;
     display: inline-flexbox;
     overflow: auto;
     float: left;
-    background-color: rgb(226, 223, 223);
+    background-color: rgb(243, 240, 240);
+    color: rgb(90, 89, 89);
 }
 
-.div50 img{
+.div100 img{
     width:100%;
-    height:35vh;
+    height:50vh;
 }
 
-.div50 h2, p, ul{
+.div100 h2, p, ul{
     padding: 5px;
     margin-left: 3px;
     margin-bottom: 20px;
 }
 
-.div50 ul{
-    text-align: center;
+.div100 ul{
+    text-align: left;
 }
 
-.diva1 ul li a{
+.div100 ul li a{
     color: grey;
     text-decoration: none;
     font-size: 15px;
@@ -326,15 +295,76 @@ a{
     padding: 10px 15px;
 }
 
-.diva2 ul li a{
-    color: grey;
-    text-decoration: none;
-    font-size: 15px;
-    border-radius: 5px;
-    background-color: white;
-    padding: 10px 15px;
-}
 
 /* End Section 4 */
 
+/* Section 5 */
 
+.c-form{
+    background-image: url(images/12.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.c-form h1{
+    font-size: 35px;
+    color: white;
+}
+
+.c-form pre{
+    font-size: 17px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    opacity: 0.5;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 1%;
+}
+
+.c-form .entry{
+    align-self: flex-start;
+    padding-top: 2%;
+    margin-left: 24%;
+}
+
+.c-form .entry input{
+    width: 140%;
+    font-size: 15px;
+    text-align: left;
+    color: black;
+    background-color: white;
+    opacity: 0.5;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.c-form .send{
+    align-self: flex-end;
+    margin-right: 25%;
+    margin-top: -10%;
+    font-size: 15px;
+    text-align: left;
+    color: black;
+    background-color: white;
+    opacity: 0.3;
+    border-radius: 5px;
+}
+
+#btn button{
+    padding: 10px 15px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    margin-left: 55%;
+    margin-top: 10%;
+}
+
+/* Section 5 */
