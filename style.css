@@ -325,7 +325,7 @@ a{
     color: black;
     background-color: white;
     opacity: 0.5;
-    padding: 10px 20px;
+    padding: 2% 9%;
     border-radius: 5px;
     margin-top: 1%;
 }
@@ -444,4 +444,59 @@ a{
         margin-bottom: 3%;
     }
     
+    .div50 {
+        width: 100%;
+        height: auto;
+        margin-bottom: 3%;
+    }
+
+    .sec3 h1{
+        font-size: 30px;
+    }
+    
+    .sec3 pre{
+        font-size: 9px;
+        text-align: center;
+    }
+
+    .div25 {
+        width: 100%;
+        height: auto;
+        margin-bottom: 3%;
+    }
+
+    .div100 {
+        width: 100%;
+        height: auto;
+        margin-bottom: 3%;
+    }
+
+    .c-form{
+        width: 100%;
+        height: 600px;
+    }
+
+    .c-form h1{
+        font-size: 35px;
+        margin-bottom: 3%;
+    }
+
+    .c-form pre{
+        display: none;
+    }
+    
+    .c-form .entry input{
+        width: 70%;
+    }
+    
+    .c-form .send{
+        align-self: center;
+        margin-left: 25%;
+        margin-top: 8%;
+    }
+    
+    #btn button{
+        margin-left: 0%;
+        border: 3px solid white;
+    }
 }
