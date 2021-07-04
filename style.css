@@ -301,7 +301,9 @@ a{
 /* Section 5 */
 
 .c-form{
+    margin-top: 7%;
     background-image: url(images/12.jpg);
+    width: 100%;
     height: 600px;
     background-position: center;
     background-size: cover;
@@ -318,12 +320,12 @@ a{
 }
 
 .c-form pre{
-    font-size: 17px;
+    font-size: 15px;
     text-align: center;
     color: black;
     background-color: white;
     opacity: 0.5;
-    padding: 15px 30px;
+    padding: 10px 20px;
     border-radius: 5px;
     margin-top: 1%;
 }
