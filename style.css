@@ -490,9 +490,11 @@ a{
     }
     
     .c-form .send{
+        width: auto;
         align-self: center;
         margin-left: 25%;
         margin-top: 8%;
+        margin-right: 0px;
     }
     
     #btn button{
