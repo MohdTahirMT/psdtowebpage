@@ -15,7 +15,7 @@
     <header>
         <nav id="navbar">
             <ul>
-                <li class="mobile-cross"><a href="javascript:void(0)"><i class="fa fa-times-circle"></i></a></li>
+                <li id="mobile-cross"><a href="javascript:void(0)" onclick="closeMenu()"><i class="fa fa-times-circle"></i></a></li>
                 <li><a href="">Homepage</a></li>
                 <li><a href="">About Us</a></li>
                 <li><a href="">Services</a></li>
@@ -23,6 +23,10 @@
                 <li><a href="">External</a></li>
             </ul>
         </nav>
+
+        <div id="mobile-bar" onclick="openMenu()">
+            <i class="fa fa-bars"></i>Menu
+        </div>
     </header>
 
     <!-- End Navbar -->

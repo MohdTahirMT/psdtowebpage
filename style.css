@@ -372,7 +372,12 @@ a{
 /* Section 5 */
 
 /* Mobile Menu */
-@media only screen and (max-width:400px) {
+
+#navbar ul #mobile-cross, #mobile-bar{
+    display: none;
+}
+
+@media only screen and (max-width:500px) {
 
     #navbar{
         background-color: crimson;
@@ -391,20 +396,42 @@ a{
         text-align: left;
     }
 
-    #navbar ul li .mobile-cross{
-        text-align: center;
+   #navbar ul li #mobile-cross{
+        text-align: right;
     }
+
     .fa-times-circle{
-        font-size: 25px;
+        font-size: 30px;
+    }
+
+    #navbar{
+        left: -280px;
+        transition: all 0.5s ease;
+    }
+
+    #mobile-bar{
+        background-color: crimson;
+        color: white;
+        padding: 20px;
+        margin-bottom: 25px;
+        font-size: 30px;
+    }
+
+    #navbar ul #mobile-cross, #mobile-bar{
+        display: block;
     }
 }
 
 /* Responsive for Mobile */
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:500px) {
 
     body, div {
         overflow: auto;
+    }
+
+    #navbar ul li a{
+        border: none;
     }
 
     .sec1{
