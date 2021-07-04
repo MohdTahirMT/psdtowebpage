@@ -377,7 +377,7 @@ a{
     display: none;
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:768px) {
 
     #navbar{
         background-color: crimson;
@@ -424,7 +424,7 @@ a{
 
 /* Responsive for Mobile */
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:768px) {
 
     body, div {
         overflow: auto;
