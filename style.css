@@ -370,3 +370,19 @@ a{
 }
 
 /* Section 5 */
+
+/* Responsive for Mobile */
+
+@media only screen and (max-width:400px) {
+
+    .sec1{
+        margin-top: -7%;
+    }
+
+    .div33 {
+        width: 100%;
+        height: auto;
+        margin-bottom: 3%;
+    }
+    
+}
